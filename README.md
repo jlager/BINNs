@@ -1,4 +1,4 @@
-# BINNs
+# [Biologically-informed neural networks](https://arxiv.org/abs/2005.13073)
 
 ![](https://github.com/jlager/BINNs/blob/master/Figures/schematic.png?raw=true)
 
