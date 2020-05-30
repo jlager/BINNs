@@ -16,6 +16,15 @@ The parameters (i.e. weights and biases) of the neural network models comprising
 
 Each Jupyter Notebook utilizes Python scripts in the **Modules** folder. The **Activations** subfolder contains a modified implementation of the *softplus* nonlinear activation function. The **Loaders** subfolder contains a script for loading the scratch assay data, rescaling the variables, and removing outliers. The **Models** subfolder contains scripts for constructing multilayer perceptron (MLP) neural network models as well as a script for constructing BINNs (which are composed of a surrogate model for the dynamical system, u<sub>MLP</sub>, and the diffusion, D<sub>MLP</sub>, growth, G<sub>MLP</sub>, and delay, T<sub>MLP</sub>, networks). Note that the BINNs model class also includes the GLS, PDE, and constraint loss terms. The **Utils** subfolder contains utility functions for various tasks including importing relevant subpackages, wrapping the BINN model for easy training, saving, loading, etc., computing gradients, and forward solving PDEs. 
 
+#### Citation
+
+`@article{lagergren2020biologicallyinformed,
+    title={Biologically-informed neural networks guide mechanistic modeling from sparse experimental data},
+    author={John H. Lagergren and John T. Nardini and Ruth E. Baker and Matthew J. Simpson and Kevin B. Flores},
+    journal={arXiv preprint arXiv:2005.13073},
+    year={2020}
+}`
+
 #### References
 
 1. Raissi M, Perdikaris P, Karniadakis GE. Physics-informed neural networks:  Adeep learning framework for solving forward and inverse problems involvingnonlinear partial differential equations. *Journal of Computational Physics.* 2019;378:686 – 707.
