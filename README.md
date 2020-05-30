@@ -18,12 +18,14 @@ Each Jupyter Notebook utilizes Python scripts in the **Modules** folder. The **A
 
 #### Citation
 
-`@article{lagergren2020biologicallyinformed,
-    title={Biologically-informed neural networks guide mechanistic modeling from sparse experimental data},
-    author={John H. Lagergren and John T. Nardini and Ruth E. Baker and Matthew J. Simpson and Kevin B. Flores},
-    journal={arXiv preprint arXiv:2005.13073},
-    year={2020}
-}`
+```
+@article{lagergren2020biologicallyinformed,  
+    title={Biologically-informed neural networks guide mechanistic modeling from sparse experimental data},  
+    author={John H. Lagergren and John T. Nardini and Ruth E. Baker and Matthew J. Simpson and Kevin B. Flores},  
+    journal={arXiv preprint arXiv:2005.13073},  
+    year={2020}  
+}
+```
 
 #### References
 
