@@ -1,6 +1,6 @@
 # BINNs
 
-![](https://github.com/jlager/BINNs/blob/master/Figures/schematic.pdf?raw=true)
+![](https://github.com/jlager/BINNs/blob/master/Figures/schematic.png?raw=true)
 
 Biologically-informed neural networks (BINNs), an extension of physics-informed neural networks [\[1\]](https://www.sciencedirect.com/science/article/pii/S0021999118307125), are introduced and used to discover the underlying dynamics of biological systems from sparse experimental data. BINNs are trained in a supervised learning framework to approximate *in vitro* cell biology assay experiments while respecting a generalized form of the governing reaction-diffusion partial differential equation (PDE). By allowing the diffusion and reaction terms to be multilayer perceptrons (MLPs), the nonlinear forms of these terms can be learned while simultaneously converging to the solution of the governing PDE. Further, the trained MLPs are used to guide the selection of biologically interpretable mechanistic forms of the PDE terms which provides new insights into the biological and physical mechanisms that govern the dynamics of the observed system. The method is evaluated on sparse real-world data from wound healing assays with varying initial cell densities [\[2\]](https://www.sciencedirect.com/science/article/abs/pii/S0022519315005676#f0005).
 
