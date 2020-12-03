@@ -224,10 +224,10 @@ class BINN(nn.Module):
         self.pde_weight = 1e0
         self.D_weight = 1e10 / self.D_max
         self.G_weight = 1e10 / self.G_max
-        self.s_weight = 1e10 
+        self.T_weight = 1e10 
         self.dDdu_weight = self.D_weight * self.K
         self.dGdu_weight = self.G_weight * self.K
-        self.dsdt_weight = self.s_weight * 2.0
+        self.dTdt_weight = self.T_weight * 2.0
         
         # proportionality constant
         self.gamma = 0.2
